@@ -177,7 +177,7 @@ header {
 
 .box4 {
     top: 0;
-    left:0;
+    left:76.5%;
 }
 
 .box5 {
@@ -213,21 +213,38 @@ h3.portfolio {
 }
 
 
-/* Extra small devices (portrait phones, less than 576px) */
+/*(portrait phones, less than 576px) */
 @media (max-width: 576px) { 
 
-    .heading {
-        margin-left: 25%;
-        margin-bottom: -10px;
+    /* index page begin */
+    header {
+        width: max-content;
     }
 
-    .links {
-        margin-right: 21%;
+    #headings {
+        margin-left: 23%;
+    }
+
+    .linksMQ {
+        margin-right: 26%;
     }
    
+    .container {
+        width: max-content;
+    }
+
+    #bioboxMQ {
+        width: 530px;
+        padding-bottom: 53%;
+    }
+    /* index page end  */
+
+
+    /* portfolio page begin */
+    
 }
 
-/* Small devices (landscape phones, less than 768px) */
+/*(tablet size on dev tools) */
 @media (max-width: 768px) { 
 
     /* about page  */
@@ -253,7 +270,7 @@ h3.portfolio {
         width: 723px;
         margin: 10px 20px 10px 10px;
         padding-bottom: 17%;
-        margin-top: 10%;
+        margin-top: 6%;
     }
     /* about page end */
 
